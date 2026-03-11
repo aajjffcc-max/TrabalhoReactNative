@@ -1,6 +1,6 @@
 # MyApp — Componentes 
 
-Trabalho acadêmico: criação de 3 componentes reutilizáveis com StyleSheet no React Native usando Expo.
+Trabalho acadêmico: criação de 3 componentes reutilizáveis e uso do StyleSheet no React Native usando Expo.
 
 ## 📁 Estrutura do Projeto
 
@@ -35,4 +35,4 @@ npx expo start
 |------------|-------|
 | `Header`   | `titulo`| 
 | `Footer`   | `texto` | 
-| `Botao`    | `label`, `onPress`, `cor`| 
+| `Botao`    | `label`, `cor`| 
