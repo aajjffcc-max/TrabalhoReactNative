@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 36,
     borderRadius: 10,
     alignItems: 'center',
+    width: '70%', 
     marginVertical: 8,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
@@ -31,5 +32,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     letterSpacing: 0.5,
+    textTransform: 'uppercase'
   },
 });
