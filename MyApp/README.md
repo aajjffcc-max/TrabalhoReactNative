@@ -1,4 +1,4 @@
-# MyApp — Componentes Reutilizáveis em React Native
+# MyApp — Componentes 
 
 Trabalho acadêmico: criação de 3 componentes reutilizáveis com StyleSheet no React Native usando Expo.
 
@@ -7,10 +7,10 @@ Trabalho acadêmico: criação de 3 componentes reutilizáveis com StyleSheet no
 ```
 MyApp/
 ├── components/
-│   ├── Header.js     ← Cabeçalho da aplicação
-│   ├── Footer.js     ← Rodapé da aplicação
-│   └── Botao.js      ← Botão reutilizável com props
-├── App.js            ← Tela principal que usa os 3 componentes
+│   ├── Header.js     
+│   ├── Footer.js     
+│   └── Botao.js      
+├── App.js            
 ├── app.json
 ├── babel.config.js
 ├── package.json
@@ -29,16 +29,10 @@ npm install
 npx expo start
 ```
 
-### 3. Visualizar
-- **No celular**: Baixe o app **Expo Go** (Android/iOS) e escaneie o QR code
-- **No navegador**: Pressione `W` no terminal
-- **No emulador Android**: Pressione `A`
-- **No simulador iOS**: Pressione `I`
-
 ## 🧩 Componentes
 
-| Componente | Props | Descrição |
-|------------|-------|-----------|
-| `Header`   | `titulo` | Cabeçalho azul com título |
-| `Footer`   | `texto`  | Rodapé escuro com texto informativo |
-| `Botao`    | `label`, `onPress`, `cor` | Botão reutilizável com cor customizável |
+| Componente | Props |
+|------------|-------|
+| `Header`   | `titulo`| 
+| `Footer`   | `texto` | 
+| `Botao`    | `label`, `onPress`, `cor`| 
